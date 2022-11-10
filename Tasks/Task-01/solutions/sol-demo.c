@@ -2,5 +2,5 @@
 
 int main()
 {
-    printf("Demo solution");
+    printf("demo solution");
 }
