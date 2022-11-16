@@ -1,7 +1,8 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
+int main()
+{
     int n = 10;
-    if(n < 0)
+    if (n < 0)
     {
         printf("The number is negative\n");
     }

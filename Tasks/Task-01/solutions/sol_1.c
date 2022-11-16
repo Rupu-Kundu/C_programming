@@ -1,16 +1,16 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int a,b;
+    int a, b;
     printf("Enter the number:\n");
-    scanf("%d %d",&a,&b);
-    if(a>b)
+    scanf("%d %d", &a, &b);
+    if (a > b)
     {
-        printf("The largest number :%d",a);
+        printf("The largest number :%d", a);
     }
-    else if(b>a)
+    else
     {
-        printf("The largest number :%d",b);
+        printf("The largest number :%d", b);
     }
     return 0;
 }
