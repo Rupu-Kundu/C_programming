@@ -3,7 +3,6 @@
 int main()
 {
     int num;
-
     printf("Enter any number: ");
     scanf("%d", &num);
     if ((num % 5 == 0) && (num % 11 == 0))

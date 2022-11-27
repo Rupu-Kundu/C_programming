@@ -1,7 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int n = 10;
+    int n;
+    printf("Enter the number: ");
+    scanf("%d",&n);
     if (n < 0)
     {
         printf("The number is negative\n");
